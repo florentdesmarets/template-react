@@ -1,0 +1,18 @@
+.button-three {
+    color: white;
+    font-size: 2rem;
+    background-color: var(--background);
+    border: 1px solid white;
+    padding:10px;
+    cursor:pointer;
+    margin: 1rem;
+
+}
+
+.button-three:hover {
+    box-shadow: white 10px 10px;
+}
+
+.button-three:active {
+    transform: scale(0.95);
+}

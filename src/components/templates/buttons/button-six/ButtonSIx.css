@@ -1,0 +1,21 @@
+.button-six {
+    color: white !important;
+    font-size: 3rem;
+    min-width: 3.5rem;
+    height:auto;
+    background-color: var(--background-);
+    padding:10px;
+    cursor:pointer;
+    margin: 1rem;
+    border-radius:50px;
+    border: 2px solid white !important;
+}
+
+.button-six:hover {
+   transition: 0.3s ease-in-out;
+}
+
+.button-six:active {
+    transform: scale(0.95);
+    transform: rotate(15deg);
+}

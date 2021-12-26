@@ -1,0 +1,241 @@
+/* remove on real website */
+
+.backtofooters {
+    position: absolute;
+    top: 0vh;
+    left: 0.5vw;
+    border: 1px white solid;
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    font-size:2rem;
+    padding:5px;
+    box-shadow: 0px 5px 0px 0px white;
+}
+
+.backtofooters:active {
+    transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px white;
+}
+
+.footer-design-container {
+    margin-top:30vh;
+    background-color: var(--background-color);
+    margin-bottom:100vh;
+}
+
+/* remove on real website */
+
+.line {
+    background-color: white;
+    min-height: 1px;
+    min-width: 60vw;
+    max-width:59vw;
+    display: flex;
+}
+
+.footer-design-container {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.footer-contact-pic  {
+    max-width: 50px;
+    max-height: 50px;
+}
+  
+.sub-title {
+    color: white;
+}
+
+.sub-text {
+    color: rgba(255, 255, 255, 0.479);
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: space-around;
+    min-width: 60vw;
+    max-width: 60vw;
+}
+
+.footer-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+
+.footer-contact-sub-sec {
+    display: flex;
+    align-items: center;
+}
+
+.footer-contact-text {
+    padding: 10px;
+}
+
+.logo-website {
+    padding: 10px;
+    max-width: 200px;
+}
+
+.sn-logo {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.479);
+}
+
+.footer-links:hover {
+    color: rgba(0, 47, 255, 0.822);
+    transition: 0.4s ease-in-out;
+}
+
+.footer-links:active {
+    transform: scale(0.85);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    max-width:20vw;
+    padding: 10px;
+}
+
+.footer-content-container {
+    display: flex;
+}
+
+.mini-line {
+    background-color: white;
+    min-height: 1px;
+    min-width: 5vw;
+    max-width:5vw;
+    display: flex;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.links-under-contain {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-links {
+    padding: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.copyright-area-container {
+    display: flex;
+    justify-content:center;
+    background-color: black;
+    align-items:center;
+  
+}
+
+.copyright-area {
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+    align-items:center;
+    width: 60vw;
+
+}
+
+.copyright-sub {
+    display: flex;
+}
+
+.paper-plane {
+    width:30px;
+    height:30px;
+}
+
+.btn-nl {
+    background-color:white;
+    color: white;
+    height:35px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.form-nl {
+    height:30px;
+}
+
+.form-nl-container {
+    display: flex;
+    align-items: center
+}
+
+.copy-links {
+    text-decoration: none;
+    padding: 8px;
+    color: rgba(255, 255, 255, 0.479);
+}
+
+.copy-links:hover {
+    color: blue;
+    transition: 0.4s ease-in-out;
+}
+
+.copy-links:active {
+    transform: scale(0.85);
+}
+
+.sn-logo {
+   border: 2px solid var(--background);
+   border-radius:50px;
+}
+.sn-logo:hover {
+    background-color:white;
+    border-radius:50px;
+}
+
+.sn-logo:active {
+    transform: scale(0.85);
+    transition: 0.4s ease-in-out;
+}
+
+@media screen and (max-width: 930px) {
+    .footer-contact {
+        flex-direction: column;
+    }
+    .footer-content-container {
+        flex-direction: column;
+    }
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        max-width: 64vw;
+        padding: 10px;
+    }
+    
+    .footer-design {
+        padding: 0px;
+    }
+    .mini-line {
+        max-width:27vw;
+    }
+    .sub-title {
+        margin-bottom: 5px;
+    }
+    .copyright-area {
+        flex-direction: column;
+    }
+}

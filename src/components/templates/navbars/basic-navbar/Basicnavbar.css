@@ -1,0 +1,107 @@
+.basic-navbar-container {
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    margin-bottom:100vh;
+  }
+
+.basic-nav {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    width: 100vw;
+}
+  
+.link {
+    text-decoration: none;
+}
+
+.basic-burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor:pointer;
+    position: relative;
+    padding:10px
+}
+
+.basic-burger span {
+    display: flex;
+    background-color: white;
+    height: 3px;
+    width: 30px;
+    margin-bottom: 6px;
+    z-index: 20;
+}
+
+.menu-close {
+    display:none
+ }
+ .menu-open {
+     display: flex;
+     position: fixed;
+     align-items: center;
+     top: 0vh;
+     right: 0;
+     width: 100vw;
+     height: 100vh;
+     flex-direction: column;
+     background-color:var(--background-color);
+     color: white;
+     transition: all 0.5s ease-in-out;
+     animation-name: transitionOpen;
+     animation-duration: 1s;
+     animation-iteration-count: inherit;
+     animation-fill-mode: backwards;
+     border-left: 100px solid white;
+ }
+
+ .basic-links-container {
+     background: url('https://github.com/florentdesmarets/Image-storage/blob/main/Templates%20Website/%E2%80%94Pngtree%E2%80%94blue%20carbon%20background%20with%20sport_1200848.jpg?raw=true');
+     display: flex;
+     width: 80vw;
+     height: 60vh;
+     margin-top:20vh;
+ }
+ @keyframes transitionOpen {
+     0% {
+         transform: translate(300%, 0);
+     }
+     100% {
+         transform: translate(0%, 0%);
+     }
+ }
+
+ @keyframes transitionClose {
+     0% {
+         transform: translate(0%, 0%);
+     }
+     100% {
+         transform: translate(300%, 0%);
+     }
+ }
+
+ .cross-2 {
+     transform: rotate(315deg) translate(-8px, -8px);
+     transition: all 0.5s ease-in-out;
+     height: 0px;
+     padding: 1.5px;
+ }
+ .cross-1 {
+     transform: rotate(45deg) translate(0px, 17px);
+     transition: all 0.5s ease-in-out;
+     padding: 1.5px;
+ }
+ .cross-3 {
+     transform: rotate(-45deg) translate(0px, -14px);
+     transition: all 0.5s ease-in-out;
+ }
+ .cross-4 {
+     transform: translate(0px, 0px);
+     transition: all 0.5s ease-in-out;
+ }
+ .cross-6 {
+     transform: translate(0px, 0px);
+     transition: all 0.5s ease-in-out;
+ }
+

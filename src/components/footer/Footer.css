@@ -1,0 +1,15 @@
+.footer-container {
+    background-color: #282c34;
+    min-height: 0vh;
+    display: flex;
+  }
+  
+.footer-text {
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+  
+.footer-text-container {
+  width: 100vw;
+  text-align: center;
+}

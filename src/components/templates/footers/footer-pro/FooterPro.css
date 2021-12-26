@@ -1,0 +1,116 @@
+
+/* remove to real project */
+
+
+.pro-section {
+    margin-top:10vh
+}
+
+.backtofooters {
+    position: absolute;
+    top: 0vh;
+    left: 0.5vw;
+    border: 1px white solid;
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    font-size:2rem;
+    padding:5px;
+    box-shadow: 0px 5px 0px 0px white;
+    background-color: var(--background-color);
+}
+
+.backtofooters:active {
+    transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px white;
+}
+
+/* remove to real project */
+
+.pro-section {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.pro-sous-section {
+    padding: 10px;
+    min-width: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+.pro-sous-section-container {
+    padding: 10px;
+    min-width: 10rem;
+    display:flex;
+    justify-content: space-between;
+}
+
+.pro-sous-title {
+    color:white;
+}
+
+.pro-footer-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 60vw;
+}
+
+
+
+.pro-section {
+    margin-top:10vh
+}
+
+.line {
+    background-color: white;
+    min-height: 1px;
+    min-width: 40vw;
+    max-width:59vw;
+    display: flex;
+}
+
+.footer-pro-container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+}
+
+.pro-text {
+    color: rgba(255, 255, 255, 0.651);
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.pro-text-para {
+    color: rgba(255, 255, 255, 0.651);
+}
+.pro-text:hover {
+    color: rgb(68, 68, 224);
+}
+
+.pro-text:active {
+    transform: scale(0.95);
+}
+
+.mini-logo {
+    max-width: 2rem;
+    max-height: 2rem;
+    border-radius:50px;
+    border: 3px white solid;
+    margin:8px;
+    padding: 0.2rem;
+    cursor: pointer;
+}
+
+.mini-logo:hover {
+    background-color: rgb(68, 68, 224);
+}
+
+.mini-logo:active {
+    transform: scale(0.95);
+}
+
+
+
