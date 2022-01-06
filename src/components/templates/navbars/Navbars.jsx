@@ -1,7 +1,12 @@
 import './Navbars.css'
 import {Link} from 'react-router-dom'
+import {useEffect} from 'react';
 
 export default function Navbars() {
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, []);
 
     return (
         <div className="navbars-container">

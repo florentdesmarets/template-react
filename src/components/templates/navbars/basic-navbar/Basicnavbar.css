@@ -54,10 +54,12 @@
      animation-iteration-count: inherit;
      animation-fill-mode: backwards;
      border-left: 100px solid white;
+     text-align: center
  }
 
  .basic-links-container {
-     background: url('https://github.com/florentdesmarets/Image-storage/blob/main/Templates%20Website/%E2%80%94Pngtree%E2%80%94blue%20carbon%20background%20with%20sport_1200848.jpg?raw=true');
+     justify-content: center;
+     flex-direction: column;
      display: flex;
      width: 80vw;
      height: 60vh;

@@ -1,5 +1,6 @@
 import '../buttons/Buttons.css';
 import {Link} from 'react-router-dom'
+import {useEffect} from 'react'
 import ButtonOne from './button-one/ButtonOne'
 import ButtonTwo from './button-two/ButtonTwo'
 import ButtonThree from './button-three/ButtonThree'
@@ -8,6 +9,10 @@ import ButtonFive from './button-five/ButtonFive'
 import ButtonSix from './button-six/ButtonSix'
 
 export default function Buttons() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, []);
 
     return (
         <div className="buttons-container">

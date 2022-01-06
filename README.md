@@ -1,3 +1,33 @@
+# hey Everyone Welcome to react Templates
+
+## Before Started:
+
+[There is many things you need to know]
+
+[1] This is free, it is more than likely, and obvious, that bugs exist, so we will ask you to send us the information without bad words because we are just volunteers.
+
+[2] Soon (maybe)
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

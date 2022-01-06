@@ -10,12 +10,17 @@ import FooterPro from './components/templates/footers/footer-pro/FooterPro'
 import DesignFooter from './components/templates/footers/footer-design/FooterDesign'
 import Navbars from './components/templates/navbars/Navbars'
 import BasicNavbar from './components/templates/navbars/basic-navbar/Basicnavbar'
+import InterMaps from './components/templates/inter-map/InterMaps'
+import InterMap from './components/templates/inter-map/inter-map/InterMap'
+import Forms from './components/templates/forms/Forms'
+import StyledForm from './components/templates/forms/styled-form/StyledForm'
+import Marquees from './components/templates/marquees/Marquees'
+import BasicMarquee from './components/templates/marquees/basic-marquee/BasicMarquee'
 const App = () => {
 
   return (
     <div className="App">
       <Router>
-        {/* <p className="">back to home</p> */}
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route path="/buttons" element={<Buttons/>}/>
@@ -25,6 +30,12 @@ const App = () => {
           <Route path="/design-footer" element={<DesignFooter/>}/>
           <Route path="/navbars" element={<Navbars/>}/>
           <Route path="/basicnav" element={<BasicNavbar/>}/>
+          <Route path="/intermaps" element={<InterMaps/>}/>
+          <Route path="/intermap" element={<InterMap/>}/>
+          <Route path="/forms" element={<Forms/>}/>
+          <Route path="/styled-form" element={<StyledForm/>}/>
+          <Route path="/marquees" element={<Marquees/>}/>
+          <Route path="basic-marquee" element={<BasicMarquee/>}/>
         </Routes>
         <Footer/>
       </Router>

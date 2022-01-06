@@ -3,7 +3,87 @@
     min-height: 100vh;
     display: flex;
   }
+
+
+  .first-text-container {
+    padding: 3rem;
+    border: 1px solid white;
+    width: 40vw;
+    margin:50px;
+    height: 250px;
+  }
+  .carousel-container {
+    width: 40vw;
+    margin: 50px;
+  }
+
+  .search-container {
+    width: 20vw;
+    display: flex;
+    padding: 50px;
+  }
+
+  .little-things {
+    display: flex;
+    width: 99.4vw;
+    justify-content: space-around;
+    align-items: center;
+    height:60vh;
+    background-color:white;
+    clip-path: polygon(0 0, 20% 15%, 100% 0, 100% 100%, 80% 95%, 0 100%);
+  }
+  .truc {
+    font-size:3rem;
+    color: var(--background);
+  }
+  .discover-container {
+    display: flex;
+    height: 20vh;
+    width: 99.4vw;
+    justify-content: center;
+  }
+
+  .white-path {
+    height:15vh;
+    background-color:white;
+    clip-path: polygon(0 0, 20% 35%, 100% 0, 100% 100%, 80% 95%, 0 100%);
   
+  }
+
+  .why-text {
+    font-size: 1.2em;
+  }
+
+  .why-this-website {
+    display:flex;
+    height:70vh;
+  }
+
+  .why-text , .why-title {
+    color: white;
+  }
+  
+  .why-link {
+    text-decoration: none;
+    color: var(--background);
+    width: 250px;
+    display: flex;
+  }
+  
+  .why-link-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-four {
+    transform: scale(0.85)
+  }
+
+.logo-github {
+  width: 3rem;
+  height: 3rem;
+}
+
 .title {
   font-size: calc(10px + 5vmin);
   color: white;
@@ -20,7 +100,14 @@
   display: flex;
   max-width: 100vw;
   flex-wrap: wrap;
+  justify-content: center;
 }
+
+.carousel-pic {
+  width: 500px !important;
+  height: 500px !important;
+}
+
 
 .link {
   text-decoration: none;

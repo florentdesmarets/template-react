@@ -1,0 +1,21 @@
+
+.inter-map-container {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+  }
+
+.map-container {
+    height: 100vh;
+}
+
+.inter-container {
+  height: 100vh;
+}
+
+.custom .leaflet-popup-tip,
+.custom .leaflet-popup-content-wrapper {
+    background: #e93434;
+    color: #ffffff;
+}
+

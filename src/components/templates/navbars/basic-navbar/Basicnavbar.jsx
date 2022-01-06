@@ -8,7 +8,7 @@ export default function BasicNavbar() {
 
     return (
         <div className="basic-navbar-container">
-            <Link className="backhome" to="/navbars">Back to Home</Link>
+            <Link className="backhome" to="/navbars">Back to Navbars</Link>
                  <section className="basic-nav">
                      <Link className="link" to="/"><img className="img-logo"src="" alt="img-logo" /></Link>
                      <div className="basic-burger"onClick={changeOpenMenu}>
