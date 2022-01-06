@@ -114,7 +114,6 @@ export default function Home() {
                 </section>
                 </div>
                 <section className="templates-container">
-
                     {filtered.length > 0 ?
                     
                     filtered.map((link) => (                    

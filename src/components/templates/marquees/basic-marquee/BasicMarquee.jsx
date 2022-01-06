@@ -11,6 +11,16 @@ export default function BasicMarquee() {
     return (
         <div className="b-marquee-container">
             <Link className="backhome" to="/marquees">Back to Marquees</Link>
+            <section className="b-marquee-s">
+                <div className="b-marquee">
+                    LONDON - 
+                    PARIS - 
+                    TOKYO - 
+                    NEW YORK - 
+                    BERLIN - 
+                    ROME 
+                </div>
+            </section>
         </div>
     )
 
